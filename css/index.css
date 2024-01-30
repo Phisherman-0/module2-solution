@@ -28,10 +28,27 @@ section:last-of-type {
 }
 
 section > h3 {
-    position: absolute;
-    top: 0;
-    right: 0;
     margin: 0;
     border: 1px solid black;
     padding: 10px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    section {
+        width: 50%;
+    }
+    section:last-of-type {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .body {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+        margin: 0 0 7px;
+    }
 }
