@@ -58,6 +58,7 @@ section > h3 {
     }
     section {
         width: 49.3%;
+        height: 150px;
         margin-right: 5px;
     }
     section:last-of-type {
