@@ -34,10 +34,16 @@ section > h3 {
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
+    .body {
+        flex-wrap: wrap;
+    }
     section {
-        width: 50%;
+        width: 49.3%;
+        margin-right: 5px;
     }
     section:last-of-type {
+        margin-top: 5px;
+        margin-right: 5px;
         width: 100%;
     }
 }
